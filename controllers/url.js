@@ -1,5 +1,5 @@
 const shortid = require("shortid");
-const URL = require('../../../Code/NodeJs/PGarg/14/URL_Shortener/models/url');
+const URL = require('../models/url');
 
 
 async function handleGenerateNewShortURL(req, res) {
